@@ -2,7 +2,6 @@ import logo from './logo.svg';
 import './App.css';
 import Machine from './Machine.js'
 import MachineProps from './MachineProps.js'
-import Person from './Person.js'
 
 function App() {
 
@@ -10,10 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
 
-        <Person
-          hobbies={["EXERCISING", " BODYBUILDING"]
-          } />
-
+        <h1> THIS IS A JACKPOT MACHINE, CLICK REFRESH TO SPIN THE WHEELS</h1>
         {/* This component showcase display 
         dynamically without props */}
         <Machine />
@@ -31,8 +27,6 @@ function App() {
           s1="X"
           s2="X"
           s3="X" />
-
-        <p>SIMPLEST JACKPOT WEB APP EVER!</p>
       </header>
     </div>
   );
