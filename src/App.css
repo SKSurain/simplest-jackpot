@@ -7,6 +7,17 @@
   border: 1px solid white;
 }
 
+.Machine-win,
+.MachineProps-win {
+  color: green;
+}
+
+.Machine-loose,
+.MachineProps-loose {
+  color: red
+}
+
+
 .App {
   text-align: center;
   background-color: rgb(49, 151, 29);
