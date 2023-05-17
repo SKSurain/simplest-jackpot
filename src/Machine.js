@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './App.css';
 
 class Machine extends React.Component {
     randomAlphabet() {
@@ -15,14 +15,14 @@ class Machine extends React.Component {
 
         //if s1,s2,s3 have same alphabets, display following div
         if (s1 === s2 && s2 === s3) {
-            return <div>
+            return <div className='Machine'>
                 <p>{s1} {s2} {s3}</p>
                 <p><b>SUCCESS</b></p>
             </div>
         }
         //this div is displayed when s1,s2,s3 doesnt have same value
         else {
-            return <div>
+            return <div className ='Machine'>
                 <p>{s1} {s2} {s3}</p>
                 <p><b>FAIL</b></p>
             </div>

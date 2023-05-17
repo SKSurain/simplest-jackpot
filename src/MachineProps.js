@@ -7,7 +7,7 @@ class MachineProps extends React.Component {
         //if jackpot (3 same alphabets), then true. Else, false
         const isDisplay = (s1 === s2) && (s2 === s3);
         //returns div with dynamic text 'Fail or 'Success'
-        return <div>
+        return <div className='MachineProps'>
             <p>{s1} {s2} {s3}</p>
             <p><b>{isDisplay ? 'SUCCESS' : 'FAIL'}</b></p>
         </div>

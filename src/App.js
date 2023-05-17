@@ -2,12 +2,17 @@ import logo from './logo.svg';
 import './App.css';
 import Machine from './Machine.js'
 import MachineProps from './MachineProps.js'
+import Person from './Person.js'
+
 function App() {
 
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+
+        <Person
+          hobbies={["EXERCISING", " BODYBUILDING"]
+          } />
 
         {/* This component showcase display 
         dynamically without props */}
