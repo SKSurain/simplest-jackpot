@@ -17,14 +17,14 @@ class Machine extends React.Component {
         if (s1 === s2 && s2 === s3) {
             return <div className='Machine'>
                 <p>{s1} {s2} {s3}</p>
-                <p><b>SUCCESS</b></p>
+                <p className='Machine-win'><b>SUCCESS</b></p>
             </div>
         }
         //this div is displayed when s1,s2,s3 doesnt have same value
         else {
-            return <div className ='Machine'>
+            return <div className='Machine'>
                 <p>{s1} {s2} {s3}</p>
-                <p><b>FAIL</b></p>
+                <p className='Machine-loose'><b>FAIL</b></p>
             </div>
         }
     }
