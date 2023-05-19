@@ -1,5 +1,4 @@
-.Machine,
-.MachineProps {
+.Machine {
   min-width: 100vh;
   display: flex;
   background-color: grey;
@@ -7,13 +6,11 @@
   border: 1px solid white;
 }
 
-.Machine-win,
-.MachineProps-win {
+.Machine-win {
   color: green;
 }
 
-.Machine-loose,
-.MachineProps-loose {
+.Machine-loose {
   color: red
 }
 
